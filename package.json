@@ -19,6 +19,7 @@
         "clojure",
         "lisp",
         "scheme",
+        "racket",
         "brackets",
         "paredit"
     ],
@@ -35,6 +36,7 @@
         "onLanguage:clojure",
         "onLanguage:lisp",
         "onLanguage:scheme",
+        "onLanguage:racket",
         "onCommand:paredit.openList",
         "onCommand:paredit.forwardSexp",
         "onCommand:paredit.backwardSexp",
@@ -79,6 +81,18 @@
                             "original",
                             "none"
                         ],
+                        "scope": "window"
+                    },
+                    "paredit.iconEnabledColor": {
+                        "type": "string",
+                        "description": "The color of paredit icon on status bar when enabled.",
+                        "default": "white",
+                        "scope": "window"
+                    },
+                    "paredit.iconDisabledColor": {
+                        "type": "string",
+                        "description": "The color of paredit icon on status bar when disabled.",
+                        "default": "#b3b3b3",
                         "scope": "window"
                     }
                 }
